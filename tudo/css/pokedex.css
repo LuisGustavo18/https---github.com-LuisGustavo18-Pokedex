@@ -18,12 +18,6 @@ body{
     color: #fff ;
 }
 
-#nome2{
-    border-radius: 1rem;
-    text-align: center;
-    width: 16rem;
-    height: 2rem;
-}
 
 .hide{
     display: none;
@@ -121,12 +115,22 @@ body{
     font-size: .625rem;
 }
 
-.nome2{
+#pokebola{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
     color: #000;
-    text-align: center;
-    border: none;
-    border-radius: 1rem;
-    background-color: #fff;
+    border-radius: auto;
+    background-color: #58047b; 
+    
+}
+
+#nome2{
+    background-color: #58047b;
+    top: 3rem;
+    border-radius: 5rem;
+
 }
 
 .pokemon .name{
@@ -170,7 +174,18 @@ body{
     
 }
 
-.hipe{
+#title{
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+    padding-top: 2rem;
+}
+
+#loadMoreButton{
+    display: none;
+}
+
+.hide{
 
 display: none;
 
