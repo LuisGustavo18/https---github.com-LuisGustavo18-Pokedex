@@ -1,10 +1,5 @@
 
-
 var button = document.getElementById('nome2')
-
-
-
-
 
 const limit = 10;
 let offset = 0;
