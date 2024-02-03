@@ -1,7 +1,7 @@
 
 var button = document.getElementById('nome2')
 
-const limit = 10;
+const limit = 5;
 let offset = 0;
 const maxRecords = 151;
 
